@@ -1,20 +1,24 @@
+/* การตั้งค่าสำหรับ body */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e6f7ff; /* สีพื้นหลังฟ้าอ่อน */
+    color: #333; /* สีข้อความหลัก */
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #3399ff; /* สีฟ้าสดใส */
+    margin-top: 20px;
 }
 
 /* การตกแต่ง header */
 header {
-    background-color: #333;
+    background-color: #3399ff; /* สีฟ้าสดใส */
     color: white;
     padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -33,9 +37,11 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
+    color: #ffdd57; /* สีเหลืองอ่อนเมื่อ hover */
     text-decoration: underline;
 }
 
@@ -45,9 +51,15 @@ main {
     text-align: center;
 }
 
+main p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #555; /* สีข้อความเทาเข้ม */
+}
+
 /* การตกแต่ง footer */
 footer {
-    background-color: #333;
+    background-color: #3399ff; /* สีฟ้าสดใส */
     color: white;
     text-align: center;
     padding: 10px 0;
