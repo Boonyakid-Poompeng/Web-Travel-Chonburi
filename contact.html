@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ข้อมูลการติดต่อของฉัน</title>
+    <title>ข้อมูลการติดต่อ</title>
     <link rel="stylesheet" href="css/contact-styles.css">
 </head>
 <body>
@@ -21,10 +21,24 @@
         <p>ชื่อ : บุณยกฤต ภูมิเพ็ง</p>
         <p>อีเมล : 66160252@go.buu.ac.th</p>
         <p>เบอร์โทร : 0985797393</p>
+
+        <h2>ฟอร์มติดต่อ</h2>
+        <form action="#" method="post">
+            <label for="name">ชื่อ:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">อีเมล:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">เบอร์โทร:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="message">ข้อความ:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">ส่งข้อมูล</button>
+        </form>
     </main>
 
-    <footer>
-        <p>&copy; ขอขอบคุณที่รับชมเว็บไซต์การท่องเที่ยวของฉัน</p>
-    </footer>
 </body>
 </html>
