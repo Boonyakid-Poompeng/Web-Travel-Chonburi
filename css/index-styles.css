@@ -1,22 +1,31 @@
+/* สไตล์พื้นฐาน */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e6f7ff; /* สีฟ้าอ่อนมาก */
+    background-color: #e6f7ff; /* สีฟ้าอ่อน */
+    color: #333; /* สีข้อความหลัก */
+    line-height: 1.6; /* ระยะห่างระหว่างบรรทัด */
 }
 
-h1 {
+h1, h2 {
     text-align: center;
-    color: #3399ff; /* สีฟ้าอ่อนสดใส */
-    margin-top: 20px;
+    color: #3399ff; /* สีฟ้าสดใส */
+    margin: 20px 0;
+}
+
+p {
+    margin: 10px 20px;
+    text-align: center;
+    font-size: 1.1em;
 }
 
 /* การตกแต่ง header */
 header {
-    background-color: #3399ff; /* สีฟ้าอ่อนสดใส */
+    background-color: #3399ff; /* สีฟ้าสดใส */
     color: white;
     padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -27,7 +36,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
@@ -43,34 +52,29 @@ nav ul li a:hover {
     color: #ffdd57; /* สีเหลืองอ่อน */
 }
 
-/* การตกแต่ง main */
-main {
+/* ส่วนภาพรวมจังหวัด */
+.overview {
     padding: 20px;
-    text-align: center;
 }
 
-/* การตกแต่ง footer */
-footer {
-    background-color: #3399ff; /* สีฟ้าสดใส */
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.overview img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-footer p {
-    margin: 0;
+/* ไฮไลท์สถานที่ */
+.highlights {
+    padding: 20px;
 }
 
-/* สไตล์ข้อมูลสถานที่ท่องเที่ยว */
 .tourist-places {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* ระยะห่างระหว่างแต่ละสถานที่ */
-    padding: 20px;
+    gap: 20px;
 }
 
 .place {
@@ -90,19 +94,52 @@ footer p {
 }
 
 .place img {
+    display: block; /* ป้องกันช่องว่างใต้รูป */
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-bottom: 1px solid #cceeff;
+    margin: 0;
+    padding: 0;
 }
 
 .place h3 {
     font-size: 1.3em;
-    color: #3399ff; /* สีฟ้าอ่อนสดใส */
+    color: #3399ff; /* สีฟ้าสดใส */
     margin: 10px 0;
 }
 
 .place p {
     font-size: 1em;
-    color: #666; /* สีเทาเข้ม */
-    padding: 0 10px 20px 10px;
+    color: #555; /* สีเทาเข้ม */
+    padding: 0 10px 20px;
+}
+
+/* การตกแต่ง footer */
+footer {
+    background-color: #3399ff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tourist-places {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .place {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
 }
