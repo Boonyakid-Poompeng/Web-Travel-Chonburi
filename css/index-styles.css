@@ -117,13 +117,17 @@ nav ul li a:hover {
 
 /* การตกแต่ง footer */
 footer {
-    background-color: #3399ff;
+    background-color: #3399ff; /* สีฟ้าสดใส */
     color: white;
     text-align: center;
     padding: 10px 0;
     position: fixed;
-    bottom: 0;
     width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
 }
 
 /* Responsive Design */
