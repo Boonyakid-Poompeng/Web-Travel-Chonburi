@@ -12,3 +12,107 @@
 # หน้าติดต่อ (Contact)
 - มีฟอร์มสำหรับส่งข้อความ  
 - แสดงข้อมูลการติดต่อ
+
+# git repository
+- https://github.com/Boonyakid-Poompeng/Web-Travel-Chonburi
+
+# คำสั่งที่ใช้
+- ( สร้าง contact.html )
+- แก้ไข contact.html
+- Git add contact.html
+- Git commit -m “โครงสร้างหน้า contact”
+- Git add contact.html
+- Git commit -m “แก้ไข nav”
+- ( แก้ไข contact.html )
+- ( สร้าง css\styles.css )
+- Git add css\styles.css
+- Git commit -m “init css”
+- ( แก้ไข css\styles.css )
+- Git add css\styles.css
+- Git commit -m “เพิ่ม css พื้นฐาน”
+- ( แก้ไข contact.html )
+- Git add contact.html
+- Git commit -m “เพิ่มข้อมูลการติดต่อและ footer”
+- ( แก้ไข contact.html )
+- Git add contact.html
+- Git commit -m “แก้ไขที่อยู่ไฟล์ css”
+- ( แก้ไขไฟล์ css\contact-styles.css )
+- Git add css\contact-styles.css
+- Git commit -m “แก้ไขชื่อไฟล์”
+- ( แก้ไข contact.html )
+- Git add contact.html
+- Git commit -m “แก้ไขคำผิด”
+- ( สร้าง index.html )
+- Git add index.html
+- Git commit -m “สร้าง index”
+- ( แก้ไข index.html )
+- Git add index.html
+- Git commit -m “โครงสร้าง index”
+- ( สร้าง css\index-styles.ccs )
+- git add css\index-styles.css
+- git commit -m “เพิ่ม css ให้ index”
+-( แก้ไข index )
+- git add index.html
+- git commit -m “เพิ่มข้อมูลพื้นฐานของสถานที่ท่องเที่ยว”
+- ( สร้าง images )
+- git add images
+- git commit -m “เพิ่มรูปใน images”
+- ( แก้ไข index )
+- git add index.html
+- git commit -m “เพิ่มรูปใน src”
+- git push
+- ( แก้ไข css\index-styles.ss )
+- git add css\index-styles.css
+- git commit -m “แก้ไขธีมของ css\index”
+- ( แก้ไข css\contact-styles.css )
+- git add css\contact-styles.css
+- git commit -m “แก้ไข css\contact”
+- ( แก้ไข README )
+- git add README.md
+- git commit -m “แก้ไข README”
+- ( สร้าง detail.html )
+- git add detail.html
+- git commit -m “เพิ่ม detail”
+- ( สร้าง css\detail-styles.css )
+- git add css\detail-styles.css
+- git commit -m “เพิ่ม css\detail”
+- ( แก้ไข contact )
+- git add contact.html
+- git commit -m “แก้ไขเพิ่ม main”
+- ( แก้ไข index.html )
+- git add index.html
+- git commit -m “เพิ่ม href รายละเอียด”
+- ( แก้ไข css\detail )
+- git add css\detail-styles.css
+- git commit -m “เพิ่ม css ของ detail”
+- ( แก้ไข detail )
+- git add detail.html
+- git commit -m “เพิ่ม detail”
+- ( แก้ไข index )
+- git add index.html
+- git commit -m “แก้ไขเพิ่มไฮไลท์ index”
+- ( เพิ่มรูปใน images )
+- git add images
+- git commit -m “ เพิ่มรูปจังหวัดชลบุรี”
+- ( แก้ไข css\index )
+-git add css\index-styles.css
+- git commit -m “แก้ไขสไตล์ index”
+- ( แก้ไข css\detail )
+- git add css\detail-styles.css
+- git commit -m “แก้ไข css\detail”
+- ( แก้ไข detail )
+- git add detail.html
+-git commit -m “แก้ไขรายละเอียด”
+- ( แก้ไข css\contact )
+- git add css\contact-styles.css
+-git commit -m “แก้ไข css\contact”
+- ( แก้ไข contact )
+- git add contact.html
+- git commit -m “แก้ไขฟอร์ม”
+- ( แก้ไข css\index )
+-git add css\index-styles.css
+- git commit -m “แก้ไข css\index”
+- ( แก้ไข css\detail )
+- git add css\detail-styles.css
+- git commit -m “แก้ไข css\detail”
+- git push
