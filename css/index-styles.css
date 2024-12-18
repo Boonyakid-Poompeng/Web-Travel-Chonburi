@@ -2,19 +2,21 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e6f7ff; /* สีฟ้าอ่อนมาก */
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #3399ff; /* สีฟ้าอ่อนสดใส */
+    margin-top: 20px;
 }
 
 /* การตกแต่ง header */
 header {
-    background-color: #333;
+    background-color: #3399ff; /* สีฟ้าอ่อนสดใส */
     color: white;
     padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -33,10 +35,12 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #ffdd57; /* สีเหลืองอ่อน */
 }
 
 /* การตกแต่ง main */
@@ -47,7 +51,7 @@ main {
 
 /* การตกแต่ง footer */
 footer {
-    background-color: #333;
+    background-color: #3399ff; /* สีฟ้าสดใส */
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -70,18 +74,19 @@ footer p {
 }
 
 .place {
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background-color: #ffffff; /* สีพื้นหลังขาว */
+    border: 1px solid #cceeff; /* ขอบสีฟ้าอ่อน */
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
     overflow: hidden;
-    transition: transform 0.3s;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .place:hover {
-    transform: scale(1.05);
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .place img {
@@ -90,14 +95,14 @@ footer p {
     object-fit: cover;
 }
 
-.place h2 {
-    font-size: 1.5em;
-    color: #333;
+.place h3 {
+    font-size: 1.3em;
+    color: #3399ff; /* สีฟ้าอ่อนสดใส */
     margin: 10px 0;
 }
 
 .place p {
     font-size: 1em;
-    color: #666;
+    color: #666; /* สีเทาเข้ม */
     padding: 0 10px 20px 10px;
 }
